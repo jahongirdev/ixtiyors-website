@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif !important;
+}
+
+.navbar-mobile-btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-mobile-btn i {
+    font-size: 22px;
+}
+
+.hero-img img {
+    max-width: 230px;
+    width: 100%;
+}
