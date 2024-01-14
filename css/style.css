@@ -1,11 +1,42 @@
+:root {
+    --primary-color: #2ab363;
+    --primary-color-alt: #209752;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth !important;
+}
+
 body {
     font-family: "Poppins", sans-serif !important;
+}
+
+header {
+    background: #fff;
+}
+
+.navbar-brand {
+    color: #000 !important;
+    transition: color .2s;
+}
+
+.navbar-brand:hover {
+    color: var(--primary-color-alt) !important;
+}
+
+.nav-link {
+    color: #000 !important;
+    transition: color .2s;
+}
+
+.nav-link:hover {
+    color: var(--primary-color) !important;
 }
 
 .navbar-mobile-btn {
@@ -28,10 +59,10 @@ body {
 }
 
 .hero-social-item i {
-    color: #000;
+    color: var(--primary-color-alt);
     font-size: 30px;
 }
 
 .hero-social-item:hover i {
-    color: rgb(40, 40, 178);
+    color: var(--primary-color);
 }
