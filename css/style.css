@@ -26,3 +26,12 @@ body {
     max-width: 230px;
     width: 100%;
 }
+
+.hero-social-item i {
+    color: #000;
+    font-size: 30px;
+}
+
+.hero-social-item:hover i {
+    color: rgb(40, 40, 178);
+}
