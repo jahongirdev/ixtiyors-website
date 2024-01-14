@@ -68,3 +68,7 @@ header {
 .hero-social-item:hover i {
     color: var(--primary-color);
 }
+
+.about {
+    margin-top: 150px;
+}
