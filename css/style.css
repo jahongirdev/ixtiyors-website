@@ -15,14 +15,16 @@ html {
 
 body {
     font-family: "Space Grotesk", sans-serif !important;
+    background: #000;
+    color: #fff;
 }
 
 header {
-    background: #fff;
+    background: #000000;
 }
 
 .navbar-brand {
-    color: #000 !important;
+    color: #ffffff !important;
     transition: color .2s;
 }
 
@@ -31,7 +33,7 @@ header {
 }
 
 .nav-link {
-    color: #000 !important;
+    color: #ffffff !important;
     transition: color .2s;
 }
 
