@@ -135,3 +135,47 @@ header {
     margin-bottom: 20px;
     color: var(--primary-color-alt);
 }
+
+.contact {
+    margin-bottom: 80px;
+}
+
+.contact-title {
+    margin-bottom: 40px;
+}
+
+.contact-link {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.contact-link:last-child {
+    margin-right: 0;
+}
+
+.contact-link i {
+    font-size: 35px;
+    color: var(--primary-color-alt);
+}
+
+.contact-link i:hover {
+    color: var(--primary-color);
+}
+
+.footer-info {
+    margin: 2rem 0;
+}
+
+@media (max-width: 768px) {
+    .footer-info {
+        text-align: center !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-item {
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
